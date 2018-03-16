@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="circleWidth" format="dimension|reference" />
+
+    <declare-styleable name="SimpleBar">
+        <attr name="firstColor" format="color|reference"></attr>
+        <attr name="SecondColor" format="color|reference"></attr>
+        <attr name="circleWidth"></attr>
+        <attr name="circleSpeed" format="integer|reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="VolumeView">
+        <attr name="unSelectColor" format="color|reference"></attr>
+        <attr name="selectColor" format="color|reference"></attr>
+        <attr name="circleWidth"></attr>
+        <attr name="allCount" format="integer" />
+        <attr name="curreCount" format="integer" />
+        <attr name="solidAngle" format="float" />
+        <attr name="centerIcon" format="reference"></attr>
+    </declare-styleable>
+
+</resources>

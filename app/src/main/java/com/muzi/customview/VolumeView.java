@@ -134,11 +134,11 @@ public class VolumeView extends View {
             case MotionEvent.ACTION_MOVE:
                 xUp = (int) event.getY();
                 if (xUp > xDown) {
-                    if (xUp - xDown > itemAngle) {
+                    if ((xUp - xDown) > itemAngle) {
                         down();
                     }
                 } else {
-                    if (xDown - xUp > itemAngle) {
+                    if ((xDown - xUp) > itemAngle) {
                         up();
                     }
                 }
